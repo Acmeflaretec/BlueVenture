@@ -9637,6 +9637,7 @@ h6,
 
 .package-item {
   transition: .5s;
+  height: 500px;
 }
 
 .package-item:hover {
