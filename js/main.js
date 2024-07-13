@@ -1,6 +1,14 @@
 (function ($) {
     "use strict";
     
+    // $(document).ready(function(){
+    //     $('[data-toggle="counter-up"]').counterUp({
+    //         delay: 10,
+    //         time: 1000
+    //     });
+    // });
+    
+    
     // Dropdown on mouse hover
     $(document).ready(function () {
         function toggleNavbarMethod() {
@@ -71,10 +79,4 @@
     });
     
 })(jQuery);
-$(document).ready(function(){
-    $('[data-toggle="counter-up"]').counterUp({
-        delay: 10,
-        time: 1000
-    });
-});
 
