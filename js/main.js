@@ -31,6 +31,10 @@
         $('html, body').animate({scrollTop: 0}, 1500, 'easeInOutExpo');
         return false;
     });
+    // Facts counter
+
+
+
 
 
     // Date and time picker
@@ -67,4 +71,10 @@
     });
     
 })(jQuery);
+$(document).ready(function(){
+    $('[data-toggle="counter-up"]').counterUp({
+        delay: 10,
+        time: 1000
+    });
+});
 
