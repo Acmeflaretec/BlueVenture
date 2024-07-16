@@ -415,6 +415,22 @@
 
 
 </script>
+<script>
+    $(document).ready(function(){
+        $('.carousel').carousel();
+        $('.carousel').on('slide.bs.carousel', function () {
+            $('video').each(function() {
+                this.pause();
+            });
+        }).on('slid.bs.carousel', function () {
+            $('video').each(function() {
+                if ($(this).closest('.carousel-item').hasClass('active')) {
+                    this.play();
+                }
+            });
+        });
+    });
+    </script>
 
     
 </body>
