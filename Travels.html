@@ -33,8 +33,9 @@
     <div class="container-fluid position-relative nav-bar p-0 ">
         <div class=" position-relative p-0 " style="z-index: 9;">
             <nav class="navbar navbar-expand-lg bg-light navbar-light shadow-lg py-3 py-lg-0 pl-3 pl-lg-5">
-                <a href="index.html" class="navbar-brand">
-                    <h1 class="m-0 text-primary">Blue<span class="text-dark">Venture</span></h1>
+                <a href="index.html" class="navbar-brand"> 
+                    <img class="m-0 nav-logo"  src="img/BLUEVENTURE Logo mark colour.png" alt="">
+                    <img class="nav-logo-2"  src="img/BLUEVENTURE Logo text colour.png" alt="">
                 </a>
                 <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
                     <span class="navbar-toggler-icon"></span>
@@ -64,7 +65,7 @@
 
     <!-- Header Start -->
     <div class="container-fluid page-header">
-        <video autoplay muted loop class="background-video">
+        <video autoplay muted playsinline preload="auto" loop class="background-video">
             <source src="img/tour2.mp4" type="video/mp4">
            
         </video>
@@ -106,10 +107,11 @@
                             <p class="help-block text-danger" id="phoneError"></p>
                         </div>
                         <div class="control-group col-sm-6">
-                            <input type="date" name="Booking-date" class="form-control p-4" id="date" placeholder="Date"
-                                required="required" data-validation-required-message="Please enter a date" />
+                            <input type="text" name="Booking-date" class="form-control p-4" id="date" placeholder="Date" required="required" data-validation-required-message="Please enter a date" onfocus="(this.type='date')" onblur="(this.type='text')" />
                             <p class="help-block text-danger"></p>
                         </div>
+                        
+                        
                         
                     </div>
                     <div class="form-row">
@@ -471,9 +473,10 @@
     <div class="container-fluid bg-dark text-white-50 px-sm-3 px-lg-5" style="margin-top: 90px;">
         <div class="row pt-5">
             <div class="col-lg-3 col-md-6 mb-5">
-                <a href="" class="navbar-brand">
+                <a href="index.html" class="navbar-brand">
            
-                    <h1 class="text-primary">Blue<span class="text-light"> Venture</span></h1>
+                    <img class="m-0 nav-logo"  src="img/BLUEVENTURE Logo mark colour.png" alt="">
+                    <img class="nav-logo-2"  src="img/BLUEVENTURE Logo text colour.png" alt="">
                 </a>
                 <p>Welcome to BlueVenture Group, enhancing lives with diverse services: Alsafar for seamless travel and MedG Education for educational excellence. Discover endless possibilities with us!</p>
             
